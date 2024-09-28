@@ -1,6 +1,6 @@
 import csv
+from datetime import datetime
 
-readme_file = "results/PROFANITY.md"
 def csv_to_md_table(csvf):
     with open(csvf, 'r') as file:
         reader = csv.reader(file)
@@ -13,10 +13,11 @@ def csv_to_md_table(csvf):
         for row in rows[1:]:
             markdown += "| " + " | ".join(row) + ' |\n'                 #row
     
+    markdown += f"\n\nLast updated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}"
     return markdown
 
-def write_to_readme(csvf):
+def write_to_readme(csvf, output):
     md = csv_to_md_table(csvf)
-    with open(readme_file, 'w') as f:
+    with open(output, 'w') as f:
         f.write(md)
         f.close()

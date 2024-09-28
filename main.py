@@ -43,4 +43,5 @@ def pull_or_clone():
 if __name__ == "__main__":
     #pull_or_clone()
     #asyncio.run(read.search_recurse(keywords_file, ignore_file, clone_dir, csv_output, count_file, concurrent))
-    compile_results.write_to_readme(csv_output)
+    compile_results.write_to_readme(csv_output, "results/PROFANITY.md")
+    compile_results.write_to_readme(count_file, "results/COUNT.md")

@@ -236,3 +236,6 @@
 | kernel/sound\usb\misc\ua101.c | 33 | stupid | * sizes at all sample rates, taking into account the stupid cache pool sizes |
 | kernel/tools\testing\radix-tree\tag_check.c | 115 | Stupid | * Stupid tag thrasher |
 | kernel/tools\testing\selftests\powerpc\eeh\eeh-functions.sh | 33 | stupid | # EEH_STATE_DMA_ACTIVE flags set. For some goddamn stupid reason |
+
+
+Last updated: 2024-09-28 19:51:41
