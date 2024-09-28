@@ -1,2 +1,4 @@
-# profanekernel
- Recurses and looks for bad language and penguins in the Linux Kernel. Updates every few days.
+### Profane Kernel
+
+Searching and compiling all the naughty naughty language in the Linux Kernel. Penguins included. Updates thrice weekly.
+
