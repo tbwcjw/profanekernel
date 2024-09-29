@@ -1,4 +1,4 @@
-| file | line | keyword | match|
+| file | line | keyword | match |
 | --- | --- | --- | --- |
 | kernel/MAINTAINERS | 8357 | Dick | M:	Dick Kennedy <dick.kennedy@broadcom.com> |
 | kernel/arch\alpha\kernel\sys_takara.c | 155 | hell | * assign it whatever the hell IRQ we like and it doesn't matter. |
