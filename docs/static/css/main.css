@@ -1,5 +1,5 @@
 body {
-	background-color: #e1ddd9;
+	background-color: #EDEFEB;
 	font-size: 12px;
 	font-family: Verdana, Arial, Helvetica, Sans-Serif;
 	color: #000000;
@@ -15,7 +15,7 @@ body {
 	padding: 0px;
 	width: 90%;
 	background-color: #ffffff;
-	border: 1px dashed #564b47;
+	border: 1px dashed #EAD6CE;
 }
 
 p, h1, h2, dt, a, b {
@@ -35,14 +35,14 @@ h1 {
 	font-size: 11px;
 	text-align: right;
 	color: #ffffff;
-	background-color: #90897a;
+	background-color: #EAD6CE;
 }
 
 #topborder {
 	font-size: 11px;
 	text-align: right;
 	color: #ffffff;
-	background-color: #90897a;
+	background-color: #D2D1C4;
 	margin: 0px;
 	padding: 5px 10px;
 }
@@ -78,14 +78,14 @@ table {
 }
 
 th, td {
-    border:1px dotted #564b47;
+    border:1px dashed #EAD6CE;
     padding:8px;
     text-align: left;
 }
 
 hr {
     border:0;
-    border:10px solid #e1ddd9;
+    border:10px solid #EDEFEB;
     margin-top: 10px;
     margin-bottom: 10px;
 }
