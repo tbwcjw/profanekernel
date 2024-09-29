@@ -18,7 +18,7 @@ body {
 	border: 1px dashed #564b47;
 }
 
-p, h1, h2, dt, a, b {
+p, h1, h2, dt, b {
 	margin: 0px;
 	padding: 5px 10px;
 }

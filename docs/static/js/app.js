@@ -26,9 +26,13 @@ async function fetch_markdown(url, table_elem, col_count) {
         
         dataRows.forEach(row => {
             htmlTable += `<tr>`;
-            row.forEach(cell => {
-                htmlTable += `<td>${cell}</td>`;
-            });
+            row.forEach((cell, index) => {
+                if(index===0) {
+                    htmlTable += `<td><a href='${cell}#n${row[1]}'>${cell}</a></td>` //url with anchor to page number
+                } else {
+                    htmlTable += `<td>${cell}</td>`
+                }
+            })
             htmlTable += `</tr>`;
         });
         

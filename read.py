@@ -49,7 +49,7 @@ async def ig(ig):
 
 def combine_file_tree_paths(file_path, tree_path):
     w = file_path.split('/')
-    file_path = '/'.join(w[1:])
+    file_path = '/'.join(w[1:]).replace("\\", "/")
 
     return f"{tree_path}{file_path}"
 
