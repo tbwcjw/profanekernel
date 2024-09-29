@@ -22,16 +22,16 @@ kernel/arch\loongarch\lib\csum.c,36,piss,"* however, have to be careful not to p
 kernel/arch\m68k\include\asm\sun3ints.h,30,fuck,/* master list of VME vectors -- don't fuck with this */
 kernel/arch\m68k\include\asm\sun3xflop.h,28,crap,/* We don't need no stinkin' I/O port allocation crap. */
 kernel/arch\m68k\mac\config.c,593,hell,* Quadra-style VIAs. A few models also have IDE from hell.
-kernel/arch\mips\dec\int-handler.S,48,hell,"*    IRQ mask, that would make this routine slow as hell."
 kernel/arch\mips\dec\kn01-berr.c,97,Bloody,/* Bloody hardware doesn't record the address for reads... */
+kernel/arch\mips\dec\int-handler.S,48,hell,"*    IRQ mask, that would make this routine slow as hell."
 kernel/arch\mips\include\asm\mipsprom.h,30,shit,/* More PROM shit.  Probably has to do with VME RMW cycles??? */
 kernel/arch\mips\include\asm\prefetch.h,20,Hell,* Hell (and the book on my shelf I can't open ...) know what the R8000 does.
 kernel/arch\mips\include\uapi\asm\bitfield.h,13,Damn,*  * Damn ...  bitfields depend from byteorder :-(
 kernel/arch\mips\kernel\genex.S,72,shit,"* Big shit, we now may have two dirty primary cache lines for the same"
 kernel/arch\mips\kernel\process.c,657,ass,* __get_wchan - a maintenance nightmare^W^Wpain in the ass ...
 kernel/arch\mips\kernel\unaligned.c,573,sucker,"* cache coherence problem.  Die sucker, die ..."
-kernel/arch\mips\kernel\vmlinux.lds.S,234,crap,/* ABI crap starts here */
 kernel/arch\mips\kernel\unaligned.c,1481,sucker,"* cache coherence problem.  Die sucker, die ..."
+kernel/arch\mips\kernel\vmlinux.lds.S,234,crap,/* ABI crap starts here */
 kernel/arch\mips\mm\c-r4k.c,1400,bitch,"* This is such a bitch, you'd think they would make it easy to do"
 kernel/arch\mips\pci\fixup-ip32.c,41,crap,* right if there exists such a broken piece of crap.
 kernel/arch\powerpc\kernel\eeh_driver.c,170,ass,* This is just ass backwards. This maze has
@@ -67,8 +67,8 @@ kernel/arch\sparc\lib\checksum_32.S,322,ass,"be	ccdbl + 4		! 8 byte aligned, kic
 kernel/arch\sparc\mm\hypersparc.S,166,ass,"/* Verified, my ass... */"
 kernel/arch\sparc\mm\srmmu.c,1136,crap,/* Clear any crap from the cache or else... */
 kernel/arch\sparc\mm\srmmu.c,1149,shit,* this shit off... nice job Fujitsu.
-kernel/arch\sparc\mm\srmmu.c,1317,crap,/* Clear any crap from the cache or else... */
 kernel/arch\sparc\mm\ultra.S,25,shit,* in Microelectronics who refused to fix this shit.
+kernel/arch\sparc\mm\srmmu.c,1317,crap,/* Clear any crap from the cache or else... */
 kernel/arch\um\drivers\daemon_kern.c,32,crap,/* We will free this pointer. If it contains crap we're burned. */
 kernel/arch\x86\include\asm\debugreg.h,26,Damn,"unsigned long val = 0;	/* Damn you, gcc! */"
 kernel/arch\x86\include\asm\nospec-branch.h,540,hell,* (Implemented as CPP macros due to header hell.)
@@ -140,8 +140,8 @@ kernel/drivers\input\serio\hp_sdc_mlc.c,124,Bastard,"printk(KERN_WARNING PREFIX 
 kernel/drivers\iommu\arm\arm-smmu-v3\arm-smmu-v3.c,3953,crap,/* CR2 (random crap) */
 kernel/drivers\ipack\devices\scc2698.h,27,crap,u8 junk[8]; /* other crap for block control */
 kernel/drivers\ipack\devices\scc2698.h,34,crap,u8 junk[8]; /* other crap for block control */
-kernel/drivers\irqchip\irq-gic-v3-its.c,1120,hell,"/* Warning, macro hell follows */"
 kernel/drivers\irqchip\irq-gic-v4.c,46,crap,*   confines the crap to a single location. And map/unmap really is
+kernel/drivers\irqchip\irq-gic-v3-its.c,1120,hell,"/* Warning, macro hell follows */"
 kernel/drivers\macintosh\adb.c,239,bullshit,__adb_probe_task(struct work_struct *bullshit)
 kernel/drivers\media\dvb-core\dvb_frontend.c,2206,crap,"* return crap, if they don't check if the data is available"
 kernel/drivers\media\dvb-core\dvb_frontend.c,2387,crap,"* return crap, if they don't check if the data is available"
@@ -154,17 +154,17 @@ kernel/drivers\media\dvb-frontends\drx39xyj\drx_driver.h,1569,ASS,u16 nicam;	/* 
 kernel/drivers\media\i2c\ov7670.c,1038,ass,"* COM7 is a pain in the ass, it doesn't like to be read then"
 kernel/drivers\media\i2c\ov7670.c,1285,crap,* Weird crap seems to exist in the upper part of
 kernel/drivers\media\pci\solo6x10\solo6x10-core.c,566,crap,/* Undocumented crap */
-kernel/drivers\media\usb\gspca\stv06xx\stv06xx.c,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
-kernel/drivers\media\usb\gspca\stv06xx\stv06xx.h,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
-kernel/drivers\media\usb\gspca\stv06xx\stv06xx_hdcs.h,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
-kernel/drivers\media\usb\gspca\stv06xx\stv06xx_hdcs.c,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
 kernel/drivers\media\usb\gspca\stv06xx\stv06xx_pb0100.h,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
-kernel/drivers\media\usb\gspca\stv06xx\stv06xx_pb0100.c,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
-kernel/drivers\media\usb\gspca\stv06xx\stv06xx_sensor.h,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
+kernel/drivers\media\usb\gspca\stv06xx\stv06xx.c,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
 kernel/drivers\media\usb\gspca\stv06xx\stv06xx_st6422.c,11,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
+kernel/drivers\media\usb\gspca\stv06xx\stv06xx_sensor.h,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
+kernel/drivers\media\usb\gspca\stv06xx\stv06xx_hdcs.h,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
+kernel/drivers\media\usb\gspca\stv06xx\stv06xx.h,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
+kernel/drivers\media\usb\gspca\stv06xx\stv06xx_pb0100.c,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
+kernel/drivers\media\usb\gspca\stv06xx\stv06xx_hdcs.c,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
 kernel/drivers\media\usb\gspca\stv06xx\stv06xx_st6422.h,11,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
-kernel/drivers\media\usb\gspca\stv06xx\stv06xx_vv6410.h,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
 kernel/drivers\media\usb\gspca\stv06xx\stv06xx_vv6410.c,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
+kernel/drivers\media\usb\gspca\stv06xx\stv06xx_vv6410.h,4,Dick,"*		      Mark Cave-Ayland, Carlo E Prelz, Dick Streefland"
 kernel/drivers\message\fusion\mptlan.c,742,bloody,"/* No Flags, 8 bytes of Details, 32bit Context (bloody turbo replies) */"
 kernel/drivers\misc\cs5535-mfgpt.c,191,hell,/* aw hell */
 kernel/drivers\mtd\chips\cfi_util.c,74,crap,of optimising away all the crap for 'bankwidth' larger than
@@ -181,8 +181,8 @@ kernel/drivers\net\ethernet\dec\tulip\tulip_core.c,1548,damn,"sa_offset = 2;		/*
 kernel/drivers\net\ethernet\marvell\sky2.c,2576,crap,* to handle crap frames.
 kernel/drivers\net\ethernet\qlogic\qla3xxx.h,869,crap,u16 version_and_numPorts; /* together to avoid endianness crap */
 kernel/drivers\net\ethernet\smsc\smc91x.c,430,bloody,/* bloody hardware */
-kernel/drivers\net\ethernet\sun\sunhme.h,275,ASS,* But.... THIS THING IS A PAIN IN THE ASS TO PROGRAM!
 kernel/drivers\net\ethernet\sun\sunhme.c,958,shit,"/* Remember: ""Different name, same old buggy as shit hardware."" */"
+kernel/drivers\net\ethernet\sun\sunhme.h,275,ASS,* But.... THIS THING IS A PAIN IN THE ASS TO PROGRAM!
 kernel/drivers\net\ethernet\sun\sunhme.c,985,fuck,/* Only Sun can take such nice parts and fuck up the programming interface
 kernel/drivers\net\fddi\skfp\h\supern_2.h,774,ass,#define	PL_LOOPBACK	0x0080		/* it cause the /LPBCK pin ass. low */
 kernel/drivers\net\fddi\skfp\h\supern_2.h,775,ass,#define	PL_MINI_CTR_INT 0x0100		/* partially contr. when bit is ass. */
@@ -207,8 +207,8 @@ kernel/drivers\s390\net\lcs.c,1404,Bloody,/* Bloody io subsystem tells us lies a
 kernel/drivers\scsi\aha152x.c,216,damn,"* first ""damn thing doesn't work"" version"
 kernel/drivers\scsi\aha1542.c,956,crap,* the strategy handler takes care of that crap.
 kernel/drivers\scsi\dc395x.c,3498,crap,/* KG: Can this prevent crap sense data ? */
-kernel/drivers\scsi\qlogicpti.c,810,bullshit,if (qpti->clock == 0) /* bullshit */
 kernel/drivers\scsi\qla1280.c,3238,damn,"* This can be called from interrupt context, damn it!!!"
+kernel/drivers\scsi\qlogicpti.c,810,bullshit,if (qpti->clock == 0) /* bullshit */
 kernel/drivers\scsi\script_asm.pl,763,hell,# what the hell?
 kernel/drivers\staging\media\atomisp\include\linux\atomisp.h,394,shit,/* GDC shit size [BQ] */
 kernel/drivers\tty\serial\pmac_zilog.c,1435,crap,* shadows so we don't write crap there before baud rate is
@@ -235,22 +235,22 @@ kernel/fs\namespace.c,740,bastard,"int __legitimize_mnt(struct vfsmount *bastard
 kernel/fs\namespace.c,745,bastard,if (bastard == NULL)
 kernel/fs\namespace.c,747,bastard,mnt = real_mount(bastard);
 kernel/fs\namespace.c,752,bastard,if (bastard->mnt_flags & MNT_SYNC_UMOUNT) {
+kernel/fs\super.c,1733,Bollocks,* then a chunk of this can be removed.  [Bollocks -- AV]
 kernel/fs\namespace.c,757,bastard,if (unlikely(bastard->mnt_flags & MNT_DOOMED)) {
 kernel/fs\namespace.c,768,bastard,"static bool legitimize_mnt(struct vfsmount *bastard, unsigned seq)"
 kernel/fs\namespace.c,770,bastard,"int res = __legitimize_mnt(bastard, seq);"
 kernel/fs\namespace.c,775,bastard,mntput(bastard);
 kernel/fs\namespace.c,4025,sucker,/* lock the sucker */
-kernel/fs\super.c,1733,Bollocks,* then a chunk of this can be removed.  [Bollocks -- AV]
 kernel/fs\adfs\dir_f.c,66,bitch,"* assembler, but a bitch in C...  This is one"
 kernel/fs\affs\Changes,243,Damn,30 characters. (Damn it! This kind of bug
-kernel/fs\bcachefs\btree_gc.c,1091,crap,*    various other crap: everything needs to agree on the ordering
 kernel/fs\bcachefs\btree_gc.h,30,crap,"* position inside its cmpxchg loop, so crap magically works)."
+kernel/fs\bcachefs\btree_gc.c,1091,crap,*    various other crap: everything needs to agree on the ordering
 kernel/fs\btrfs\file.c,3084,crap,/* Make sure we aren't being give some crap mode */
 kernel/fs\configfs\symlink.c,188,bastard,"*  AV, a thoroughly annoyed bastard."
 kernel/fs\jffs2\background.c,110,hell,* This forces the GCD to slow the hell down.   Pulling an
 kernel/fs\jffs2\dir.c,856,shit,/* Oh shit. We really ought to make a single node which can do both atomically */
-kernel/fs\jffs2\dir.c,870,sucker,* for that sucker and we have to trigger mount eviction - the
 kernel/fs\jffs2\gc.c,424,crap,all the iget() crap anyway */
+kernel/fs\jffs2\dir.c,870,sucker,* for that sucker and we have to trigger mount eviction - the
 kernel/fs\notify\fsnotify.c,129,damn,"* directory, there damn well better only be one item on this list */"
 kernel/fs\ocfs2\cluster\heartbeat.c,2208,damn,* entire damn world #includes */
 kernel/fs\ocfs2\xattr.c,2243,sucker,"* sane state.  Thus, even with errors we dirty the sucker."
@@ -309,8 +309,8 @@ kernel/sound\aoa\soundbus\i2sbus\core.c,250,crap,* useless crap (ugh ugh ugh). W
 kernel/sound\isa\wavefront\wavefront_synth.c,2118,sucker,/* reset that sucker so that it doesn't bother us. */
 kernel/sound\pci\ad1889.c,787,dammit,"ad1889_readl(chip, AD_DMA_DISR);	/* flush, dammit! */"
 kernel/sound\pci\azt3328.c,185,crap,"* Config switch, to use ALSA's AC97 layer instead of old custom mixer crap."
-kernel/sound\pci\azt3328.c,616,damn,"(13), make damn sure"
 kernel/sound\pci\ens1370.c,614,dammit,"/* wait for a SAFE time to write addr/data and then do it, dammit */"
+kernel/sound\pci\azt3328.c,616,damn,"(13), make damn sure"
 kernel/sound\pci\es1968.c,1145,crap,"/* parallel in crap, see maestro reg 0xC [8-11] */"
 kernel/sound\pci\ens1370.c,657,dammit,"/* wait for a SAFE time to write addr/data and then do it, dammit */"
 kernel/sound\pci\ac97\ac97_patch.c,1311,BLOODY,WHY CAN'T ANYONE FOLLOW THE BLOODY SPEC?  *sigh*
@@ -353,8 +353,8 @@ kernel/sound\pci\hda\patch_realtek.c,833,ass,tmp = (ass & 0x38) >> 3;	/* externa
 kernel/sound\pci\hda\patch_realtek.c,855,ass,if (!(ass & 0x8000))
 kernel/sound\pci\hda\patch_realtek.c,866,ass,tmp = (ass >> 11) & 0x3;	/* HP to chassis */
 kernel/sound\soc\codecs\wm8994.c,346,hell,/* Icky as hell but saves code duplication */
-kernel/sound\soc\codecs\wm8994.c,453,hell,/* Icky as hell but saves code duplication */
 kernel/sound\soc\codecs\wm8996.c,399,hell,/* Icky as hell but saves code duplication */
+kernel/sound\soc\codecs\wm8994.c,453,hell,/* Icky as hell but saves code duplication */
 kernel/sound\usb\mixer.c,1346,crap,"/* totally crap, return an error */"
 kernel/tools\perf\builtin-c2c.c,10,Dick,*   Dick Fowles <fowles@inreach.com>
 kernel/tools\perf\bench\futex-hash.c,5,hell,* futex-hash: Stress the hell out of the Linux kernel futex uaddr hashing.

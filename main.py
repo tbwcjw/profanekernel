@@ -6,7 +6,7 @@ import compile_results
 
 from tqdm import tqdm 
 
-repo_url="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git"
+repo_url="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git"
 clone_dir="kernel/"
 
 run_log = "runlog.csv"
