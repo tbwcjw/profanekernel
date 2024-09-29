@@ -1,7 +1,6 @@
 ## Profane Kernel
 
-Searching and compiling all the naughty naughty language in the Linux Kernel. Penguins included. Updates thrice weekly.
-
+Compiling all the naughty naughty language in the Linux Kernel. Penguins included. Updates monthly.
 
 ##### Keyword Matches
 [Markdown](https://github.com/tbwcjw/profanekernel/blob/main/results/COUNT.md)
