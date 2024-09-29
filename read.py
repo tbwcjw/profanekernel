@@ -47,28 +47,34 @@ async def ig(ig):
         ignore_dirs = [line.strip() for line in await f.readlines() if line.strip()]
     return ignore_dirs
 
-async def search_in_file(file_path, line_number, line, pattern, csv_writer_lock, csv_writer, keyword_count):
+def combine_file_tree_paths(file_path, tree_path):
+    w = file_path.split('/')
+    file_path = '/'.join(w[1:])
+
+    return f"{tree_path}{file_path}"
+
+async def search_in_file(file_path, tree_path, line_number, line, pattern, csv_writer_lock, csv_writer, keyword_count):
     match = re.search(pattern, line, re.IGNORECASE)
     if match:
         keyword = match.group(0)
         async with csv_writer_lock:
-            await csv_writer.writerow([file_path, line_number, keyword, line.strip()])
+            await csv_writer.writerow([combine_file_tree_paths(file_path, tree_path), line_number, keyword, line.strip()])
         
         keyword_count[keyword] += 1
 
-async def process_file(file_path, patterns, csv_writer_lock, csv_writer, progress, semaphore, keyword_count):
+async def process_file(file_path, tree_path, patterns, csv_writer_lock, csv_writer, progress, semaphore, keyword_count):
     async with semaphore:
         try:
             async with aiofiles.open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                 lines = await f.readlines()
                 for line_number, line in enumerate(lines, start=1):
                     for pattern in patterns:
-                        await search_in_file(file_path, line_number, line, pattern, csv_writer_lock, csv_writer, keyword_count)
+                        await search_in_file(file_path, tree_path, line_number, line, pattern, csv_writer_lock, csv_writer, keyword_count)
             await progress.update_processed_files()
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
 
-async def search_recurse(keywords, ignore, directory, output_file, count_output_file, max_concurrent_files):
+async def search_recurse(keywords, ignore, directory, tree_url, output_file, count_output_file, max_concurrent_files):
     keywords = await kw(keywords)
     ignore = await ig(ignore)
 
@@ -93,15 +99,13 @@ async def search_recurse(keywords, ignore, directory, output_file, count_output_
     async with aiofiles.open(output_file, 'w', newline='', encoding='utf-8') as csvf:
         csv_writer = csv.writer(csvf)
         await csv_writer.writerow(['file', 'line', 'keyword', 'match'])
-
         tasks = []
         for root, dirs, files in os.walk(directory):
             dirs[:] = [d for d in dirs if d not in ignore]
 
             for file in files:
                 file_path = os.path.join(root, file)
-                tasks.append(process_file(file_path, patterns, csv_writer_lock, csv_writer, progress, semaphore, keyword_count))
-
+                tasks.append(process_file(file_path, tree_url, patterns, csv_writer_lock, csv_writer, progress, semaphore, keyword_count))
         await asyncio.gather(*tasks)
 
     async with aiofiles.open(count_output_file, 'w', newline='', encoding='utf-8') as count_csvf:
