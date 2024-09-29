@@ -1,16 +1,21 @@
+from datetime import datetime
 import os
 import csv
 import re
 import asyncio
 import aiofiles
 import sys
+import time
 from collections import defaultdict
+
+import compile_results
 
 class Progress:
     def __init__(self):
         self.lock = asyncio.Lock()
         self.total_files = 0
         self.processed_files = 0
+        self.start_time = time.time()
 
     def set_total_files(self, total):
         self.total_files = total
@@ -20,8 +25,16 @@ class Progress:
             self.processed_files += 1
             self.print_progress()
 
+    def get_elapsed_time(self):
+        elapsed_time = time.time() - self.start_time
+        hours, remainder = divmod(int(elapsed_time), 3600)
+        minutes, seconds = divmod(remainder, 60)
+        elapsed_str = f"{hours:02}:{minutes:02}:{seconds:02}"
+        return elapsed_str
+
+
     def print_progress(self):
-        sys.stdout.write(f'\rProcessed files: {self.processed_files}/{self.total_files}')
+        sys.stdout.write(f'\rProcessed files: {self.processed_files}/{self.total_files} - Elapsed time: {self.get_elapsed_time()}')
         sys.stdout.flush()
 
 async def kw(kf):
@@ -96,3 +109,9 @@ async def search_recurse(keywords, ignore, directory, output_file, count_output_
         await count_csv_writer.writerow(['keyword', 'count'])
         for keyword, count in keyword_count.items():
             await count_csv_writer.writerow([keyword.lower(), count])
+
+    complete_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    elapsed_time = progress.get_elapsed_time()
+    total_matches = sum(keyword_count.values())
+
+    return [complete_time, total_files, len(keywords), elapsed_time, total_matches]

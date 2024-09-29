@@ -21,3 +21,13 @@ def write_to_readme(csvf, output):
     with open(output, 'w') as f:
         f.write(md)
         f.close()
+
+def append_to_readme(str, output):
+    with open(output, 'a') as f:
+        f.write(f"\n{str}")
+        f.close()
+
+def write_to_runlog(input, file):
+    with open(file, 'a', newline='', encoding='utf-8') as csvf:
+        csv_writer = csv.writer(csvf)
+        csv_writer.writerow(input)
