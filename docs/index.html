@@ -1,30 +1,56 @@
 <!DOCTYPE html>
-<html lang="EN">
-    <head>
-        <title>profanekernel</title>
-        <link rel="stylesheet" href="static/css/main.css">
-        <link rel="icon" type="image/x-icon" href="static/img/ICON.ico">
-    </head>
-    <body>
-        <div id="box">
-            <div id="topborder"><b> profanekernel </b> | <a href="#keywords">Keyword Matches</a> | <a href="#tabulated">Tabulated</a> | <a href="https://github.com/tbwcjw/profanekernel">GitHub</a> | <a href="https://github.com/tbwcjw">tbwcjw@github</a> | <a href='https://www.paypal.com/paypalme/cjwilesa8'>coffee</a></div>
-            <h2>profanekernel</h2>
-            <p>Compiling all the naughty naughty language in the Linux Kernel. Penguins included. Updates monthly.</p>
-            <p>We are reading from the stable kernel. <a href='https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git'>git.kernel.org</a></p>
-            <p><a href='https://github.com/tbwcjw/profanekernel/blob/main/LICENSE'>MIT License</a></p>
-            <hr>
-            <h2 id="tabulated">Tabulated</h2>
-            <a href='https://github.com/tbwcjw/profanekernel/blob/main/results/PROFANITY.md'>Markdown</a>
-            <a href='https://raw.githubusercontent.com/tbwcjw/profanekernel/refs/heads/main/matches.csv'>CSV</a>
-            <div id="profanity-table"></div>
-            <div id="lastModified">Last Modified: 9/28/2024</div>
-            <hr>
-            <h2 id="keywords">Keyword Matches</h2>
-            <a href='https://github.com/tbwcjw/profanekernel/blob/main/results/COUNT.md'>Markdown</a>
-            <a href='https://raw.githubusercontent.com/tbwcjw/profanekernel/refs/heads/main/count.csv'>CSV</a>
-            <div id="count-table"></div>
-            <div id="lastModified">Last Modified: 9/28/2024</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profanekernel</title>
+    <link href="static/css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="static/img/ICON.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container my-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom pb-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">profanekernel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="ms-auto">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="https://github.com/tbwcjw/profanekernel" class="nav-link">Repository</a></li>
+                            <li class="nav-item"><a href="https://github.com/tbwcjw" class="nav-link">tbwcjw@github</a></li>
+                            <li class="nav-item"><a href='https://www.paypal.com/paypalme/cjwilesa8' class="nav-link">coffee</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="card mb-3 mt-3">
+            <div class="card-body">
+                <h2 id="top">profanekernel</h2>
+                <p>Compiling all the naughty naughty language in the Linux Kernel. Penguins included. Updates monthly.</p>
+                <p>We are reading from the stable kernel. <a href='https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git'>git.kernel.org</a></p>
+                <p><a href='https://github.com/tbwcjw/profanekernel/blob/main/LICENSE'>MIT License</a></p>
+                
+            </div>
         </div>
-        <script src="static/js/app.js"></script>
-    </body>
+        <div class="card mb-3 mt-3">
+            <div class="card-body">
+                <h2>statistics</h2>
+                <p id="expletive-count"></p>
+                <div id="keyword-stats"></div>
+                <br>
+                <i>Which is a bit rude, isn't it?</i>
+            </div>
+        </div>
+        <div id="profanity-table"></div>
+    </div>
+    <script src="static/js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>

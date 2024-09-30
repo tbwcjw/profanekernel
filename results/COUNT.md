@@ -1,6 +1,5 @@
 | keyword | count|
 | --- | --- |
-| dick | 21 |
 | hell | 72 |
 | damn | 22 |
 | crap | 92 |
@@ -20,7 +19,6 @@
 | bullshit | 3 |
 | bastard | 11 |
 | bollocks | 2 |
-| dyke | 1 |
 | bastard | 2 |
 | bloody | 3 |
 | retard | 2 |
@@ -32,4 +30,4 @@
 | shit | 1 |
 
 
-Last updated: 2024-09-29 16:26:13
+Last updated: 2024-09-29 17:03:43

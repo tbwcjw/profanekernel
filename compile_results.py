@@ -1,5 +1,32 @@
 import csv
 from datetime import datetime
+import matplotlib.pyplot as plt
+
+def keyword_count_pie(csvf, output):
+    keywords = []
+    counts = []
+
+    with open(csvf, newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            keywords.append(row['keyword'])
+            counts.append(int(row['count']))
+
+        total_count = sum(counts)
+        filtered_keywords = []
+        filtered_counts = []
+
+        for i in range(len(counts)):
+            percentage = (counts[i] / total_count) * 100
+            if percentage >= 1:
+                filtered_keywords.append(keywords[i])
+                filtered_counts.append(counts[i])
+
+        
+        plt.figure(figsize=(8, 8))
+        plt.pie(filtered_counts, labels=filtered_keywords, autopct='%1.1f%%', startangle=140)
+        plt.axis('equal')
+        plt.savefig(output)
 
 def csv_to_md_table(csvf):
     with open(csvf, 'r') as file:
