@@ -39,7 +39,7 @@ class Progress:
 
 async def kw(kf):
     async with aiofiles.open(kf, 'r', encoding='utf-8') as f:
-        keywords = [line.strip() for line in await f.readlines() if line.strip()]
+        keywords = [line.strip().lower() for line in await f.readlines() if line.strip()]
     return keywords
 
 async def ig(ig):
@@ -56,7 +56,7 @@ def combine_file_tree_paths(file_path, tree_path):
 async def search_in_file(file_path, tree_path, line_number, line, pattern, csv_writer_lock, csv_writer, keyword_count):
     match = re.search(pattern, line, re.IGNORECASE)
     if match:
-        keyword = match.group(0)
+        keyword = match.group(0).strip().lower()
         async with csv_writer_lock:
             await csv_writer.writerow([combine_file_tree_paths(file_path, tree_path), line_number, keyword, line.strip()])
         

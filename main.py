@@ -46,14 +46,14 @@ def pull_or_clone():
 
 async def compile(result=None):
     print("compiling results")
-    #compile_results.write_to_readme(csv_output, "results/PROFANITY.md")
-    #compile_results.write_to_readme(count_file, "results/COUNT.md")
-    #compile_results.write_to_runlog(result, "runlog.csv")
+    compile_results.write_to_readme(csv_output, "results/PROFANITY.md")
+    compile_results.write_to_readme(count_file, "results/COUNT.md")
+    compile_results.write_to_runlog(result, "runlog.csv")
     compile_results.keyword_count_pie("count.csv", "results/COUNT.png")
 
 async def main():
-    #pull_or_clone()
-    #result = await read.search_recurse(keywords_file, ignore_file, clone_dir, tree_url, csv_output, count_file, concurrent)
+    pull_or_clone()
+    result = await read.search_recurse(keywords_file, ignore_file, clone_dir, tree_url, csv_output, count_file, concurrent)
     await compile()
     
 
