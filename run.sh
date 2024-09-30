@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source ~/.bashrc
-
 python3 -m venv venv
 source venv/bin/activate
 
@@ -16,6 +14,7 @@ wait $!
 if [[ $(git status --porcelain) ]]; then
     git add .
     git commit -m "Monthly update: $(date +'%Y-%m-%d')"
+    export GH_TOKEN=$GH_TOKEN
     git push origin main
 fi
 
