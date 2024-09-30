@@ -1,30 +1,32 @@
 import csv
 from datetime import datetime
 import matplotlib.pyplot as plt
+from collections import defaultdict
 
 def keyword_count_pie(csvf, output):
-    keywords = []
-    counts = []
+    keyword_counts = defaultdict(int)
 
     with open(csvf, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            keywords.append(row['keyword'])
-            counts.append(int(row['count']))
+            keyword = row['keyword']
+            count = int(row['count'])
+            keyword_counts[keyword] += count
 
-        total_count = sum(counts)
-        filtered_keywords = []
-        filtered_counts = []
+        keywords = []
+        counts = []
+        total_count = sum(keyword_counts.values())
 
-        for i in range(len(counts)):
-            percentage = (counts[i] / total_count) * 100
+
+        for keyword, count in keyword_counts.items():
+            percentage = (count / total_count) * 100
             if percentage >= 1:
-                filtered_keywords.append(keywords[i])
-                filtered_counts.append(counts[i])
+                keywords.append(keyword)
+                counts.append(count)
 
         
         plt.figure(figsize=(8, 8))
-        plt.pie(filtered_counts, labels=filtered_keywords, autopct='%1.1f%%', startangle=140, textprops={'fontsize': 16})
+        plt.pie(counts, labels=keywords, autopct='%1.1f%%', startangle=140, textprops={'fontsize': 16})
         plt.axis('equal')
         plt.savefig(output)
 

@@ -71,10 +71,18 @@ async function fetch_counts(url, table_elem) {
         return cells;
     });
 
-    let htmlTable = ''; 3
+    let htmlTable = ''; 
+    const keywordCounts = {};
     dataRows.forEach(cells => {
         const keyword = cells[1];
-        const amount = cells[2];
+        const amount = parseInt(cells[2]);
+
+        if(keywordCounts[keyword]) {            //aggregate keyword counts
+            keywordCounts[keyword] += amount;
+        } else {
+            keywordCounts[keyword] = amount;
+        }
+
         totalExpletives += parseInt(amount);
         htmlTable += ` <b>${amount}</b> ${keyword}'s `;
     });
