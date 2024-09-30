@@ -2,14 +2,10 @@
 
 source ~/.bashrc
 
-if [ -z "$GH_TOKEN" ]; then
-    echo "GH_TOKEN not set"
-    exit 1
-fi
-
 python3 -m venv venv
 source venv/bin/activate
 
+git pull
 if [ -f requirements.txt ]; then
     pip install -r requirements.txt
 fi

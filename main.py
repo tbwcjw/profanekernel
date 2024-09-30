@@ -52,10 +52,10 @@ async def compile(result=None):
     compile_results.keyword_count_pie("count.csv", "results/COUNT.png")
 
 async def main():
-    pull_or_clone()
-    result = await read.search_recurse(keywords_file, ignore_file, clone_dir, tree_url, csv_output, count_file, concurrent)
-    await compile(result)
-    compile_results.keyword_count_pie("count.csv", "results/COUNT.png")
+#    pull_or_clone()
+#    result = await read.search_recurse(keywords_file, ignore_file, clone_dir, tree_url, csv_output, count_file, concurrent)
+#    await compile(result)
+#    compile_results.keyword_count_pie("count.csv", "results/COUNT.png")
     
 
 if __name__ == "__main__":
