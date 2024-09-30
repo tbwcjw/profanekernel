@@ -31,8 +31,7 @@ class Progress:
         minutes, seconds = divmod(remainder, 60)
         elapsed_str = f"{hours:02}:{minutes:02}:{seconds:02}"
         return elapsed_str
-
-
+    
     def print_progress(self):
         sys.stdout.write(f'\rProcessed files: {self.processed_files}/{self.total_files} - Elapsed time: {self.get_elapsed_time()}')
         sys.stdout.flush()

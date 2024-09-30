@@ -1,21 +1,23 @@
 #!/bin/bash
 
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv                        #sets up venv   
+source venv/bin/activate            
 
-git pull
+git pull                                    #ensure up-to-date
 if [ -f requirements.txt ]; then
-    pip install -r requirements.txt
+    pip install -r requirements.txt         #install requirements
 fi
 
-python3 main.py
-wait $!
+python3 main.py                             #run main
+wait $!                                     #wait for end of execution
 
-if [[ $(git status --porcelain) ]]; then
+if [[ $(git status --porcelain) ]]; then    #commit to repo
     git add .
     git commit -m "Monthly update: $(date +'%Y-%m-%d')"
-    export GH_TOKEN=$GH_TOKEN
-    git push origin main
+    export GH_TOKEN=$GH_TOKEN               #ensure GH_TOKEN is in bashrc
+    git push origin main                    #push commit
 fi
 
-deactivate
+deactivate                                  #exit venv
+
+#GH_TOKEN=$GH_TOKEN ./run.sh

@@ -2,3 +2,4 @@ gitpython
 matplotlib
 aiofiles
 tqdm
+argparse

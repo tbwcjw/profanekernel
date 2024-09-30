@@ -17,14 +17,12 @@ def keyword_count_pie(csvf, output):
         counts = []
         total_count = sum(keyword_counts.values())
 
-
         for keyword, count in keyword_counts.items():
             percentage = (count / total_count) * 100
             if percentage >= 1:
                 keywords.append(keyword)
                 counts.append(count)
 
-        
         plt.figure(figsize=(8, 8))
         plt.pie(counts, labels=keywords, autopct='%1.1f%%', startangle=140, textprops={'fontsize': 16})
         plt.axis('equal')
