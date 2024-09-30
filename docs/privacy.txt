@@ -1,0 +1,33 @@
+Privacy Policy
+Last updated: 9/30/2024
+
+At ProfaneKernel (accessible from profanekernel.xyz), we prioritize the privacy of our visitors. This Privacy Policy outlines the types of information that is collected and recorded by ProfaneKernel and how we use it.
+
+Information We Collect
+ProfaneKernel does not collect any personally identifiable information (PII) directly. Since our website is completely static and does not allow for user input, we do not gather any information like names, email addresses, or other contact information from our users.
+
+Google Analytics
+We use Google Analytics to help us analyze how visitors interact with our site. Google Analytics may collect information such as your browser type, device type, operating system, the pages you visit, the time spent on those pages, and other browsing activity. This information is used to improve the website's functionality and content.
+
+Google Analytics uses cookies to track visitor behavior on our site. However, the data collected is anonymized and cannot be linked back to you as an individual. You can learn more about how Google uses data collected through Google Analytics here: https://policies.google.com/technologies/partner-sites.
+
+You can opt-out of Google Analytics tracking by using the Google Analytics opt-out browser add-on, which is available here: https://tools.google.com/dlpage/gaoptout.
+
+Google AdSense
+We may display ads through Google AdSense on our site. AdSense uses cookies and other tracking technologies to display relevant advertisements based on your browsing history. These ads help keep our website running and accessible for free.
+
+For more information on how Google uses data collected through AdSense, you can visit Google’s privacy policy: https://policies.google.com/technologies/ads.
+
+You may opt-out of personalized advertising by visiting Google's Ad Settings: https://adssettings.google.com/. Alternatively, you can opt-out of third-party vendor's use of cookies for personalized advertising by visiting www.aboutads.info: https://www.aboutads.info/choices/.
+
+Third-Party Privacy Policies
+Google Analytics and AdSense have their own privacy policies. We encourage you to review these policies for further information about their practices. ProfaneKernel's Privacy Policy does not apply to other websites or services.
+
+Data Security
+While we do not collect any personally identifiable information from users, the data that is collected by Google Analytics and Google AdSense is managed by Google. Google employs various measures to protect this data, and more information can be found in their privacy policies.
+
+Your Consent
+By using our website, you consent to our Privacy Policy and agree to its terms.
+
+Changes to This Policy
+We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date at the top of this page. Please check this page periodically to stay informed of any changes.
