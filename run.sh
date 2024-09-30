@@ -12,7 +12,9 @@ wait $!
 if [[ $(git status --porcelain) ]]; then
     git add .
     git commit -m "Monthly update: $(date +'%Y-%m-%d')"
-    git push origin main
+
+    gh repo sync origin main
+    gh pr create --base main --head main --title "Monthly update" --body "Update for $(date +'%Y-%m-%d')"
 fi
 
 deactivate
