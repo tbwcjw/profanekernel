@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python main.py
+python3 main.py
 wait $!
 
 if [[ $(git status --porcelain) ]]; then
