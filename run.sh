@@ -5,7 +5,6 @@ source venv/bin/activate
 if [ -f requirements.txt ]; then
     pip install -r requirements.txt
 fi
-wait $!
 
 python3 main.py
 wait $!
