@@ -86,7 +86,6 @@ async function fetch_counts(url, table_elem) {
         totalExpletives += parseInt(amount);
         htmlTable += ` <b>${amount}</b> ${keyword}'s `;
     });
-    console.log(htmlTable);
     htmlTable.replace(/,\s*$/, "");
     totalExpletives = `In our last search, we found ${totalExpletives} expletives.`;
     document.getElementById('expletive-count').innerHTML = totalExpletives;

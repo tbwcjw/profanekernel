@@ -2,8 +2,9 @@
 if [ -f requirements.txt ]; then
     pip install -r requirements.txt
 fi
-#python3 main.py
-#wait $!
+
+python3 main.py
+wait $!
 
 if [[ $(git status --porcelain) ]]; then
     git add .
