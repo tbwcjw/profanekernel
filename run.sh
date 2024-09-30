@@ -21,7 +21,8 @@ if [[ $(git status --porcelain) ]]; then
     git add .
     git commit -m "Monthly update: $(date +'%Y-%m-%d')"
     export GH_TOKEN=$GH_TOKEN
-    gh repo sync origin 
+    gh repo sync origin main
+    gh repo push main
 fi
 
 deactivate
