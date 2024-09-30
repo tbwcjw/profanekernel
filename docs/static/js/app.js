@@ -41,12 +41,12 @@ async function fetch_markdown(url, table_elem, col_count, link = false) {
                     <div class="code-box">
                         <code><div class="line-num">${lineNumber}.</div>${code}</code>
                     </div>
-                    <footer class="text-muted small">Keyword: <i>"${keyword}"</i>. ${lastModifiedDate}</footer>
+                    <footer class="text-muted small">Keyword: <i>"${keyword}"</i></footer>
                 </div></a>
                 
             </div>`;
         });
-
+        document.getElementById('last-modified').innerHTML = lastModifiedDate;
         document.getElementById(table_elem).innerHTML = htmlTable;
     } catch (error) {
         console.error('Error fetching or converting Markdown:', error);

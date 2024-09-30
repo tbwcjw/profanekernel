@@ -40,7 +40,7 @@ def csv_to_md_table(csvf):
         for row in rows[1:]:
             markdown += "| " + " | ".join(row) + ' |\n'                 #row
     
-    markdown += f"\n\nLast updated: {datetime.now().strftime(f"%Y-%m-%d %H:%M:%S")}"
+    markdown += f"\n\nLast updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
     return markdown
 
 def write_to_readme(csvf, output):

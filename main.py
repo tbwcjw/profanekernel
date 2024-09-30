@@ -54,7 +54,7 @@ async def compile(result=None):
 async def main():
     pull_or_clone()
     result = await read.search_recurse(keywords_file, ignore_file, clone_dir, tree_url, csv_output, count_file, concurrent)
-    await compile()
+    await compile(result)
     
 
 if __name__ == "__main__":
