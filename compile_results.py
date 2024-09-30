@@ -24,7 +24,7 @@ def keyword_count_pie(csvf, output):
 
         
         plt.figure(figsize=(8, 8))
-        plt.pie(filtered_counts, labels=filtered_keywords, autopct='%1.1f%%', startangle=140)
+        plt.pie(filtered_counts, labels=filtered_keywords, autopct='%1.1f%%', startangle=140, textprops={'fontsize': 14})
         plt.axis('equal')
         plt.savefig(output)
 
