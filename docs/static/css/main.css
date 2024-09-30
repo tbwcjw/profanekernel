@@ -36,5 +36,5 @@ code {
 	margin-right: auto;
 	width:33%;
 	height:auto;
-	image-rendering: crisp-edges;
+	image-rendering: high-quality;
 }

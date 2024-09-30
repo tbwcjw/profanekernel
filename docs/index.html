@@ -42,7 +42,6 @@
                 <p>We are reading from the stable kernel. <a href='https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git'>git.kernel.org</a></p>
                 <p><a href='https://github.com/tbwcjw/profanekernel/blob/main/LICENSE'>MIT License</a></p>
                 <p id="last-modified"></p>
-                
             </div>
         </div>
         <div class="card mb-3 mt-3">
@@ -55,7 +54,23 @@
                 <a href='https://raw.githubusercontent.com/tbwcjw/profanekernel/refs/heads/main/results/COUNT.png'><img class="pie" src="https://raw.githubusercontent.com/tbwcjw/profanekernel/refs/heads/main/results/COUNT.png"></a>
             </div>
         </div>
+        <div class="card mb-3 mt-3" id="search">
+            <div class="card-body">
+                <div class="input-group mb-3 row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="clear-btn">Clear</button>
+                            <input type="text" class="form-control input-sm" id="search-input" placeholder="Keyword...">
+                            <button class="btn btn-outline-primary btn-sm" type="button" id="search-btn">Search</button>
+                        </div>
+                        <div class="mt-3" id="pagination-controls"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="table-container"></div>
         <div id="profanity-table"></div>
+        <a class='nav-link px-5' href='#search'>Back to top</a>
     </div>
     <script src="static/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
