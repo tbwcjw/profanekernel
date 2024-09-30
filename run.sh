@@ -1,4 +1,12 @@
 #!/bin/bash
+
+source ~/.bashrc
+
+if [ -z "$GH_TOKEN" ]; then
+    echo "GH_TOKEN not set"
+    exit 1
+fi
+
 python3 -m venv venv
 source venv/bin/activate
 
@@ -14,7 +22,6 @@ if [[ $(git status --porcelain) ]]; then
     git commit -m "Monthly update: $(date +'%Y-%m-%d')"
     export GH_TOKEN=$GH_TOKEN
     gh repo sync origin main
-    gh pr create --base main --head main --title "Monthly update" --body "Update for $(date +'%Y-%m-%d')"
 fi
 
 deactivate
