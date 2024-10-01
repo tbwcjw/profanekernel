@@ -1,8 +1,7 @@
-import csv
+import csv, os
 from datetime import datetime
 import matplotlib.pyplot as plt
 from collections import defaultdict
-import os
 
 def month_year_key(folder):                     #folders MUST be formatted like "MonthYear" ("%B%Y")
     fmonth = folder[:-4]

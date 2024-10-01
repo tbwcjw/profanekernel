@@ -1,14 +1,6 @@
+import os, csv, re, asyncio, aiofiles, sys, time
 from datetime import datetime
-import os
-import csv
-import re
-import asyncio
-import aiofiles
-import sys
-import time
 from collections import defaultdict
-
-import compile_results
 
 class Progress:
     def __init__(self):
