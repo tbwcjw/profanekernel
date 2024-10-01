@@ -5,6 +5,8 @@ import asyncio
 import compile_results
 import argparse
 from tqdm import tqdm 
+from datetime import datetime
+import shutil
 
 repo_url="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git"
 tree_url="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/"
@@ -20,6 +22,8 @@ count_file = "count.csv"
 ignore_file = "ignore.txt"
 
 concurrent = 10                         #number of files to read at the same time. too many will error out.
+
+archive_dir="results/archive"
 
 class Progress(git.RemoteProgress):
     def __init__(self):
@@ -44,6 +48,17 @@ def pull_or_clone():
         print("No repo. cloning.")
         git.Repo.clone_from(repo_url, clone_dir, progress=Progress())
 
+async def archive():
+    print("archiving results")
+    archive_path = f"results/archive/{datetime.now().strftime("%B%Y")}"
+    if not os.path.exists(archive_path): os.makedirs(archive_path)
+    
+    shutil.copyfile("results/COUNT.png", f"{archive_path}/COUNT.png")
+    shutil.copyfile("count.csv", f"{archive_path}/count.csv")
+    shutil.copyfile("matches.csv", f"{archive_path}/matches.csv")
+
+    compile_results.keyword_over_time("results/archive/","results/KOVERTIME.png")
+
 async def compile(result=None):
     print("compiling results")
     compile_results.write_to_readme(csv_output, "results/PROFANITY.md")
@@ -57,6 +72,7 @@ async def main():
     pull_or_clone()
     result = await read.search_recurse(keywords_file, ignore_file, clone_dir, tree_url, csv_output, count_file, concurrent)
     await compile(result)
+    await archive()
     
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -65,6 +81,7 @@ def parse_args():
 
     if args.command == "compile":           #compiles results
         asyncio.run(compile())
+        asyncio.run(archive())
     else:
         asyncio.run(main())                 #default runs whole app
 
