@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-docs/**/*.css linguist-language=CSS
-docs/**/*.js linguist-language=JavaScript
-docs/**/*.html linguist-language=HTML
+docs/static/css/*.css linguist-language=CSS
+docs/static/js/*.js linguist-language=JavaScript
+docs/*.html linguist-language=HTML
