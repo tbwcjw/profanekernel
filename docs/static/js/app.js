@@ -48,14 +48,12 @@ async function fetch_markdown(url, table_elem, col_count, link = false, page_siz
                 }
 
                 htmlTable += `</div>
-                    <a href='${linkCell}#n${lineNumber}' style='text-decoration: none;'>
                         <div class="card-body">
                             <div class="code-box">
                                 <code><div class="line-num">${lineNumber}.</div>${code}</code>
                             </div>
                             <footer class="text-muted small">Keyword: <i>"${keyword}"</i></footer>
                         </div>
-                    </a>
                 </div>`;
             });
 
