@@ -8,10 +8,10 @@ from tqdm import tqdm
 from datetime import datetime
 import shutil
 
-repo_url="https://github.com/tbwcjw/LeachUKsite.git"
+repo_url="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git"
 tree_url="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/"
 
-clone_dir="test/"
+clone_dir="kernel/"
 
 run_log = "runlog.csv"
 
