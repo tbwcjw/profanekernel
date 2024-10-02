@@ -16,7 +16,7 @@ We welcome contributions. Open a pull request or issue to get started.
 - Bugs, feature requests use the issue tracker.
 - I am bad at documentation. Any help would be appreciated. Submit a pull request.
 <hr>
-<h4>Date Visualization</h3>
+<h4>Data Visualization</h3>
 <p align="center">
 <img width="50%" src="https://raw.githubusercontent.com/tbwcjw/profanekernel/refs/heads/main/results/COUNT.png">
 <br>
