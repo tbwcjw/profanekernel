@@ -71,8 +71,8 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/pi
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/iommu/arm/arm-smmu-v3/arm-smmu-v3.c,3953,crap,/* CR2 (random crap) */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/pata_cmd640.c,204,crap,* Of putting crap on the disk
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/sata_via.c,315,shit,*	SCR registers on vt6420 are pieces of shit and may hang the
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/sata_sil.c,492,ass,/* kick HSM in the ass */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/libata-acpi.c,491,crap,/* we always use the 0 slot for crap hardware */
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/sata_sil.c,492,ass,/* kick HSM in the ass */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/gpu/drm/nouveau/nouveau_drm.c,459,crap,"/*XXX: this is crap, but the fence/channel stuff is a little"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/gpu/drm/nouveau/include/nvkm/subdev/clk.h,113,shit,*     bat-shit insane what-was-nouveau_hw.c code
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/gpu/drm/nouveau/nvkm/subdev/pmu/fuc/macros.fuc,49,fuck,#define NV_PPWR_INTR_EN_CLR_MASK                    /* fuck i hate envyas */ -1
@@ -137,8 +137,8 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/mips/
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/mips/include/asm/prefetch.h,20,hell,* Hell (and the book on my shelf I can't open ...) know what the R8000 does.
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/mips/kernel/unaligned.c,573,sucker,"* cache coherence problem.  Die sucker, die ..."
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/mips/kernel/unaligned.c,1481,sucker,"* cache coherence problem.  Die sucker, die ..."
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/mips/kernel/vmlinux.lds.S,234,crap,/* ABI crap starts here */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/mips/kernel/process.c,657,ass,* __get_wchan - a maintenance nightmare^W^Wpain in the ass ...
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/mips/kernel/vmlinux.lds.S,234,crap,/* ABI crap starts here */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/mips/kernel/genex.S,72,shit,"* Big shit, we now may have two dirty primary cache lines for the same"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/um/drivers/daemon_kern.c,32,crap,/* We will free this pointer. If it contains crap we're burned. */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm64/kvm/mmu.c,2193,damn,* - System caches don't support S/W at all (damn!)
@@ -200,8 +200,8 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/t
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/netfilter/xt_hashlimit.c,71,crap,/* hash table crap */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/netfilter/xt_string.c,44,damn,"/* Damn, can't handle this case properly with iptables... */"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/netfilter/nf_conntrack_ftp.c,212,crap,else { /* Some other crap */
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/llc/llc_input.c,173,crap,"* When the interface is in promisc. mode, drop all the crap that it"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/llc/af_llc.c,337,hell,*	otherwise all hell will break loose.
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/llc/llc_input.c,173,crap,"* When the interface is in promisc. mode, drop all the crap that it"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/core/skbuff.c,5335,fuck,"/* Fuck, we are miserable poor guys... */"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/8021q/vlan.c,190,sucker,"/* So, got the sucker initialized, now lets place"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/8021q/vlan.c,549,sucker,"/* Null terminate this sucker, just in case. */"
@@ -224,9 +224,9 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/perf
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/perf/bench/futex-hash.c,5,hell,* futex-hash: Stress the hell out of the Linux kernel futex uaddr hashing.
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/handling-regressions.rst,672,dammit,"And dammit, we upgrade the kernel ALL THE TIME without upgrading any"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/coding-style.rst,862,hell,"might look like a good thing, but it's confusing as hell when one reads the"
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/submitting-patches.rst,862,piss,"Greg Kroah-Hartman, ""How to piss off a kernel subsystem maintainer""."
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/management-style.rst,67,bullshit,And people will even see that as true leadership (*cough* bullshit
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/management-style.rst,114,hell,sure as hell shouldn't encourage them by promising them that what they
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/submitting-patches.rst,862,piss,"Greg Kroah-Hartman, ""How to piss off a kernel subsystem maintainer""."
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/management-style.rst,272,crap,"a while, and you'll feel cleansed. Just don't crap too close to home."
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/arch/x86/i386/IO-APIC.rst,26,hell,hell:~> cat /proc/interrupts
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/arch/x86/i386/IO-APIC.rst,37,hell,hell:~>
@@ -260,16 +260,16 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/include/li
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/include/linux/preempt.h,462,hell,/* Macro to avoid header recursion hell vs. lockdep */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/include/linux/mtd/flashchip.h,64,damn,it'll make it a damn sight harder to find which chip we want from
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/usb/mixer.c,1346,crap,"/* totally crap, return an error */"
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ad1889.c,787,dammit,"ad1889_readl(chip, AD_DMA_DISR);	/* flush, dammit! */"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/es1968.c,1145,crap,"/* parallel in crap, see maestro reg 0xC [8-11] */"
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ens1370.c,614,dammit,"/* wait for a SAFE time to write addr/data and then do it, dammit */"
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ad1889.c,787,dammit,"ad1889_readl(chip, AD_DMA_DISR);	/* flush, dammit! */"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/azt3328.c,185,crap,"* Config switch, to use ALSA's AC97 layer instead of old custom mixer crap."
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ens1370.c,657,dammit,"/* wait for a SAFE time to write addr/data and then do it, dammit */"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/azt3328.c,616,damn,"(13), make damn sure"
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ens1370.c,614,dammit,"/* wait for a SAFE time to write addr/data and then do it, dammit */"
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ens1370.c,657,dammit,"/* wait for a SAFE time to write addr/data and then do it, dammit */"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ac97/ac97_patch.c,1311,bloody,WHY CAN'T ANYONE FOLLOW THE BLOODY SPEC?  *sigh*
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ac97/ac97_patch.c,3642,hell,"* I have no idea what the hell Reserved does, but on an MSI"
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c,687,ass,"unsigned int ass, tmp, i;"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ac97/ac97_patch.c,3644,shit,* shit may happen.
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c,687,ass,"unsigned int ass, tmp, i;"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c,694,ass,ass = spec->cdefine.sku_cfg;
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c,695,ass,if (ass == ALC_FIXUP_SKU_IGNORE)
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c,702,ass,ass = codec->core.subsystem_id & 0xffff;
@@ -313,14 +313,14 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/aoa/
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,740,bastard,"int __legitimize_mnt(struct vfsmount *bastard, unsigned seq)"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,745,bastard,if (bastard == NULL)
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,747,bastard,mnt = real_mount(bastard);
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,752,bastard,if (bastard->mnt_flags & MNT_SYNC_UMOUNT) {
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/super.c,1733,bollocks,* then a chunk of this can be removed.  [Bollocks -- AV]
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,752,bastard,if (bastard->mnt_flags & MNT_SYNC_UMOUNT) {
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,757,bastard,if (unlikely(bastard->mnt_flags & MNT_DOOMED)) {
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,768,bastard,"static bool legitimize_mnt(struct vfsmount *bastard, unsigned seq)"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,770,bastard,"int res = __legitimize_mnt(bastard, seq);"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,775,bastard,mntput(bastard);
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c,4025,sucker,/* lock the sucker */
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/bcachefs/btree_gc.c,1091,crap,*    various other crap: everything needs to agree on the ordering
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/bcachefs/btree_gc.c,1093,crap,*    various other crap: everything needs to agree on the ordering
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/bcachefs/btree_gc.h,30,crap,"* position inside its cmpxchg loop, so crap magically works)."
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/jffs2/gc.c,424,crap,all the iget() crap anyway */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/jffs2/background.c,110,hell,* This forces the GCD to slow the hell down.   Pulling an
@@ -347,5 +347,5 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/sch
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/sched/core.c,5385,bollocks,"* IO-wait accounting, and how it's mostly bollocks (on SMP)."
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/events/internal.h,34,crap,/* poll crap */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/printk/printk.c,225,crap,* trailing crap...
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/locking/lockdep.c,3967,damn,"* More smoking hash instead of calculating it, damn see these"
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/locking/lockdep.c,3970,damn,"* More smoking hash instead of calculating it, damn see these"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/time/posix-cpu-timers.c,1193,hell,* keep the callback static and to avoid header recursion hell.
