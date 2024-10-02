@@ -44,12 +44,16 @@ def combine_file_tree_paths(file_path, tree_path):
 
     return f"{tree_path}{file_path}"
 
-async def search_in_file(file_path, tree_path, line_number, line, pattern, csv_writer_lock, csv_writer, keyword_count):
+async def search_in_file(file_path, tree_path, line_number, all_lines, line, pattern, csv_writer_lock, csv_writer, keyword_count):
     match = re.search(pattern, line, re.IGNORECASE)
     if match:
         keyword = match.group(0).strip().lower()
+
+        start_index = max(0, line_number - 2)                                           #retrieve two lines before and two lines after
+        end_index = min(len(all_lines), line_number+2)                                  #for context.
+        ctx_lines = "\n".join(all_lines[start_index:end_index])
         async with csv_writer_lock:
-            await csv_writer.writerow([combine_file_tree_paths(file_path, tree_path), line_number, keyword, line.strip()])
+            await csv_writer.writerow([combine_file_tree_paths(file_path, tree_path), line_number, keyword, ctx_lines.strip()])
         
         keyword_count[keyword] += 1
 
@@ -60,7 +64,7 @@ async def process_file(file_path, tree_path, patterns, csv_writer_lock, csv_writ
                 lines = await f.readlines()
                 for line_number, line in enumerate(lines, start=1):
                     for pattern in patterns:
-                        await search_in_file(file_path, tree_path, line_number, line, pattern, csv_writer_lock, csv_writer, keyword_count)
+                        await search_in_file(file_path, tree_path, line_number, lines, line, pattern, csv_writer_lock, csv_writer, keyword_count)
             await progress.update_processed_files()
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
