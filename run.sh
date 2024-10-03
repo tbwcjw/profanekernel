@@ -4,7 +4,7 @@ python3 -m venv venv                        #sets up venv
 source venv/bin/activate            
 export GH_TOKEN=$GH_TOKEN                   #ensure GH_TOKEN is in bashrc first
 
-if [ -z "$token" ]; then
+if [ -z "$GH_TOKEN" ]; then
     echo "GH_TOKEN required"
     exit 1
 fi
