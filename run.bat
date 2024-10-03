@@ -26,7 +26,7 @@ if not errorlevel 1 (
     git commit -m "Monthly update: %TODAY%"
     
     ::push commit
-    git push origin master
+    gh repo sync main
 )
 
 ::exit venv
