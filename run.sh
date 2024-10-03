@@ -8,6 +8,11 @@ echo "TOKEN: $GH_TOKEN"
 
 git pull --strategy-option theirs origin main
 
+if [ -z "$GH_TOKEN" ]; then
+    echo "token required"
+    exit
+fi
+
 if [ -f requirements.txt ]; then
     pip install -r requirements.txt         #install requirements
 fi
