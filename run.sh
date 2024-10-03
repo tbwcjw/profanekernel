@@ -4,9 +4,10 @@ python3 -m venv venv                        #sets up venv
 source venv/bin/activate            
 export GH_TOKEN=$GH_TOKEN               #ensure GH_TOKEN is in bashrc
 
-print "TOKEN $GH_TOKEN"
+echo "TOKEN $GH_TOKEN"
 
-git pull origin main                        #ensure up-to-date
+git pull --strategy-option theirs origin main
+
 if [ -f requirements.txt ]; then
     pip install -r requirements.txt         #install requirements
 fi
