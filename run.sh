@@ -16,7 +16,9 @@ wait $!                                     #wait for end of execution
 if [[ $(git status --porcelain) ]]; then    #commit to repo
     git add .
     git commit -m "Monthly update: $(date +'%Y-%m-%d')"
-    git push origin main
+    gh auth login --with-token <<< "$GH_TOKEN"
+    gh repo set-default origin
+    gh push origin main
 fi
 
 deactivate                                  #exit venv
