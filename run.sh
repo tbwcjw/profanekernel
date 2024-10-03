@@ -15,7 +15,7 @@ if [[ $(git status --porcelain) ]]; then    #commit to repo
     git add .
     git commit -m "Monthly update: $(date +'%Y-%m-%d')"
     export GH_TOKEN=$GH_TOKEN               #ensure GH_TOKEN is in bashrc
-    gh repo sync main                       #push commit
+    gh repo sync --branch main              #push commit
 fi
 
 deactivate                                  #exit venv
