@@ -6,11 +6,16 @@ export GH_TOKEN=$GH_TOKEN                   #ensure GH_TOKEN is in bashrc first
 
 echo "TOKEN: $GH_TOKEN"
 
-git pull --strategy-option theirs origin main
+git fetch origin
+
+if ! git merge origin/main; then
+    echo "Merge conflict encountered. Attempting to resolve with 'theirs' strategy."
+    git merge -X theirs origin/main 
+fi
 
 if [ -z "$GH_TOKEN" ]; then
     echo "token required"
-    exit
+    exit 1
 fi
 
 if [ -f requirements.txt ]; then
@@ -23,7 +28,7 @@ wait $!                                     #wait for end of execution
 if [[ $(git status --porcelain) ]]; then    #commit to repo
     git add .
     git commit -m "Monthly update: $(date +'%Y-%m-%d')"
-    gh auth login --with-token <<< "$GH_TOKEN"
+    echo "$GH_TOKEN" | gh auth login --with-token
     git push origin main
 fi
 
