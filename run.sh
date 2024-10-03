@@ -4,6 +4,7 @@ python3 -m venv venv                        #sets up venv
 source venv/bin/activate            
 export GH_TOKEN=$GH_TOKEN               #ensure GH_TOKEN is in bashrc
 
+print "$GH_TOKEN"
 
 git pull origin main                        #ensure up-to-date
 if [ -f requirements.txt ]; then
@@ -17,8 +18,7 @@ if [[ $(git status --porcelain) ]]; then    #commit to repo
     git add .
     git commit -m "Monthly update: $(date +'%Y-%m-%d')"
     gh auth login --with-token <<< "$GH_TOKEN"
-    gh repo set-default origin
-    gh push origin main
+    git push origin main
 fi
 
 deactivate                                  #exit venv
