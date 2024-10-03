@@ -45,8 +45,8 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ne
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/sun/sunhme.c,985,fuck,/* Only Sun can take such nice parts and fuck up the programming interface
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/broadcom/bnx2x/bnx2x_link.c,4347,shit,* it means the shit hit the fan.
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/marvell/sky2.c,2576,crap,* to handle crap frames.
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/amd/declance.c,33,shit,*      v0.007: Big shit. The LANCE seems to use a different DMA mechanism to
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/amd/sunlance.c,52,shit,"*		  This was the sun4c killer. Shit, stupid bug."
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/amd/declance.c,33,shit,*      v0.007: Big shit. The LANCE seems to use a different DMA mechanism to
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/qlogic/qla3xxx.h,869,crap,u16 version_and_numPorts; /* together to avoid endianness crap */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/alteon/acenic.c,518,damn,* addresses but who gives a damn.
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/cortina/gemini.c,1712,crap,"/* Oh, crap */"
@@ -71,8 +71,8 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/pi
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/iommu/arm/arm-smmu-v3/arm-smmu-v3.c,3953,crap,/* CR2 (random crap) */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/pata_cmd640.c,204,crap,* Of putting crap on the disk
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/sata_via.c,315,shit,*	SCR registers on vt6420 are pieces of shit and may hang the
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/libata-acpi.c,491,crap,/* we always use the 0 slot for crap hardware */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/sata_sil.c,492,ass,/* kick HSM in the ass */
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/libata-acpi.c,491,crap,/* we always use the 0 slot for crap hardware */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/gpu/drm/nouveau/nouveau_drm.c,459,crap,"/*XXX: this is crap, but the fence/channel stuff is a little"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/gpu/drm/nouveau/include/nvkm/subdev/clk.h,113,shit,*     bat-shit insane what-was-nouveau_hw.c code
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/gpu/drm/nouveau/nvkm/subdev/pmu/fuc/macros.fuc,49,fuck,#define NV_PPWR_INTR_EN_CLR_MASK                    /* fuck i hate envyas */ -1
@@ -200,8 +200,8 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/t
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/netfilter/xt_hashlimit.c,71,crap,/* hash table crap */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/netfilter/xt_string.c,44,damn,"/* Damn, can't handle this case properly with iptables... */"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/netfilter/nf_conntrack_ftp.c,212,crap,else { /* Some other crap */
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/llc/af_llc.c,337,hell,*	otherwise all hell will break loose.
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/llc/llc_input.c,173,crap,"* When the interface is in promisc. mode, drop all the crap that it"
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/llc/af_llc.c,337,hell,*	otherwise all hell will break loose.
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/core/skbuff.c,5335,fuck,"/* Fuck, we are miserable poor guys... */"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/8021q/vlan.c,190,sucker,"/* So, got the sucker initialized, now lets place"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/8021q/vlan.c,549,sucker,"/* Null terminate this sucker, just in case. */"
@@ -222,8 +222,8 @@ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/test
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/powerpc/signal/sig_sc_double_restart.c,19,sucker,*  interrupting that sucker on 64bit...
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/perf/trace/beauty/include/uapi/sound/asound.h,63,shit,unsigned char db5_dminh_lsv; /* downmix inhibit & level-shit values */
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/perf/bench/futex-hash.c,5,hell,* futex-hash: Stress the hell out of the Linux kernel futex uaddr hashing.
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/handling-regressions.rst,672,dammit,"And dammit, we upgrade the kernel ALL THE TIME without upgrading any"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/coding-style.rst,862,hell,"might look like a good thing, but it's confusing as hell when one reads the"
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/handling-regressions.rst,672,dammit,"And dammit, we upgrade the kernel ALL THE TIME without upgrading any"
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/submitting-patches.rst,862,piss,"Greg Kroah-Hartman, ""How to piss off a kernel subsystem maintainer""."
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/management-style.rst,67,bullshit,And people will even see that as true leadership (*cough* bullshit
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/management-style.rst,114,hell,sure as hell shouldn't encourage them by promising them that what they
