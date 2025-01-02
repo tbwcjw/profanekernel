@@ -37,17 +37,17 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/wireless/broadcom/brcm80211/brcmsmac/main.c | 7864 | hell | /* ..now really unleash hell (allow the MAC out of suspend) */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/wireless/ath/ath5k/desc.c | 197 | crap | * WEP crap |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/wireless/ath/ath5k/desc.c | 333 | crap | * WEP crap |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/hamradio/scc.c | 1443 | damn | * Damn, where is my Z8530 programming manual...? |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/hamradio/6pack.c | 468 | crap | default:			/* gcc oh piece-o-crap ... */ |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/hamradio/scc.c | 1443 | damn | * Damn, where is my Z8530 programming manual...? |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/smsc/smc91x.c | 430 | bloody | /* bloody hardware */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/dec/tulip/tulip_core.c | 1548 | damn | sa_offset = 2;		/* Grrr, damn Matrox boards. */ |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/sun/sunhme.c | 958 | shit | /* Remember: "Different name, same old buggy as shit hardware." */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/sun/sunhme.h | 275 | ass | * But.... THIS THING IS A PAIN IN THE ASS TO PROGRAM! |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/sun/sunhme.c | 958 | shit | /* Remember: "Different name, same old buggy as shit hardware." */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/sun/sunhme.c | 985 | fuck | /* Only Sun can take such nice parts and fuck up the programming interface |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/broadcom/bnx2x/bnx2x_link.c | 4347 | shit | * it means the shit hit the fan. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/marvell/sky2.c | 2576 | crap | * to handle crap frames. |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/amd/sunlance.c | 52 | shit | *		  This was the sun4c killer. Shit, stupid bug. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/amd/declance.c | 33 | shit | *      v0.007: Big shit. The LANCE seems to use a different DMA mechanism to |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/amd/sunlance.c | 52 | shit | *		  This was the sun4c killer. Shit, stupid bug. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/qlogic/qla3xxx.h | 869 | crap | u16 version_and_numPorts; /* together to avoid endianness crap */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/cortina/gemini.c | 1712 | crap | /* Oh, crap */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/net/ethernet/alteon/acenic.c | 518 | damn | * addresses but who gives a damn. |
@@ -66,14 +66,14 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/scsi/qlogicpti.c | 810 | bullshit | if (qpti->clock == 0) /* bullshit */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/scsi/dc395x.c | 3498 | crap | /* KG: Can this prevent crap sense data ? */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/irqchip/irq-gic-v4.c | 46 | crap | *   confines the crap to a single location. And map/unmap really is |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/irqchip/irq-gic-v3-its.c | 1204 | hell | /* Warning, macro hell follows */ |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/irqchip/irq-gic-v3-its.c | 1206 | hell | /* Warning, macro hell follows */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/char/agp/amd64-agp.c | 283 | crap | /* Northbridge seems to contain crap. Try the AGP bridge. */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/pinctrl/aspeed/pinmux-aspeed.h | 485 | hell | /* Macro hell */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/iommu/arm/arm-smmu-v3/arm-smmu-v3.c | 4007 | crap | /* CR2 (random crap) */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/pata_cmd640.c | 204 | crap | * Of putting crap on the disk |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/sata_via.c | 315 | shit | *	SCR registers on vt6420 are pieces of shit and may hang the |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/sata_sil.c | 492 | ass | /* kick HSM in the ass */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/libata-acpi.c | 491 | crap | /* we always use the 0 slot for crap hardware */ |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/ata/sata_sil.c | 492 | ass | /* kick HSM in the ass */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/gpu/drm/nouveau/nouveau_drm.c | 460 | crap | /*XXX: this is crap, but the fence/channel stuff is a little |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/gpu/drm/nouveau/include/nvkm/subdev/clk.h | 113 | shit | *     bat-shit insane what-was-nouveau_hw.c code |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/gpu/drm/nouveau/nvkm/subdev/pmu/fuc/macros.fuc | 49 | fuck | #define NV_PPWR_INTR_EN_CLR_MASK                    /* fuck i hate envyas */ -1 |
@@ -106,8 +106,8 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/atm/he.c | 1518 | hell | HPRINTK("hell bent for leather!\n"); |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/greybus/es2.c | 330 | crap | * Crap, pool is empty, complain to the syslog and go allocate one |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm/kernel/head.S | 86 | crap | * We're trying to keep crap to a minimum; DO NOT add any machine specific |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm/kernel/head.S | 87 | crap | * crap here - that's what the boot loader (or in extreme, well justified |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm/kernel/traps.c | 635 | hell | * the fires of hell burn in your belly if you break this rule. ;) |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm/kernel/head.S | 87 | crap | * crap here - that's what the boot loader (or in extreme, well justified |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/x86/pci/irq.c | 433 | damn | * ALI pirq entries are damn ugly, and completely undocumented. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/x86/platform/efi/efi_64.c | 313 | crap | * to virtual mode and would otherwise crap on us. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/x86/include/asm/pci_x86.h | 94 | crap | u32 miniport_data;		/* Crap */ |
@@ -143,8 +143,8 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/mips/kernel/genex.S | 72 | shit | * Big shit, we now may have two dirty primary cache lines for the same |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/um/drivers/daemon_kern.c | 32 | crap | /* We will free this pointer. If it contains crap we're burned. */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm64/kvm/mmu.c | 2200 | damn | * - System caches don't support S/W at all (damn!) |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm64/kvm/hypercalls.c | 60 | damn | * nobody will give a damn about it). |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm64/kvm/vgic/vgic-irqfd.c | 126 | damn | * as long as the damn vgic is initialized. |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm64/kvm/hypercalls.c | 60 | damn | * nobody will give a damn about it). |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm64/kvm/hyp/vhe/switch.c | 94 | crap | * The architecture is a bit crap (what a surprise): an EL2 guest |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm64/kvm/hyp/vhe/switch.c | 97 | sucker | * sucker using the very same bit it can't set... |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/arm64/lib/csum.c | 35 | piss | * however, have to be careful not to piss off KASAN, which means using |
@@ -166,19 +166,19 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/mm/nohash/tlb_low_64e.S | 675 | crap | * r11 = crap (free to use) |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/mm/nohash/tlb_low_64e.S | 676 | crap | * r10 = crap (free to use) |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/platforms/powermac/smp.c | 338 | crap | * crap to avoid giving people ideas that they can do the |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/platforms/powermac/smp.c | 824 | crap | * ideally, all that crap will be done in prom.c and the CPU left |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/platforms/powermac/low_i2c.c | 741 | hell | /* I know that looks like a lot, slow as hell, but darwin |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/platforms/powermac/smp.c | 824 | crap | * ideally, all that crap will be done in prom.c and the CPU left |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/platforms/cell/spider-pic.c | 204 | crap | * crap and we don't know on which BE iic interrupt we are hooked on at |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/platforms/cell/spider-pic.c | 254 | hell | /* ugly as hell but works for now */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/kernel/eeh_driver.c | 170 | ass | * This is just ass backwards. This maze has |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/powerpc/kernel/eeh_driver.c | 183 | shit | * shit unusable forever. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/hexagon/mm/init.c | 38 | hell | * over until Hell freezes over.  Actual bound in years needs to be |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/hexagon/kernel/smp.c | 28 | crap | * (which is prior to any of our smp_prepare_cpu crap), in order to set |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/mm/hypersparc.S | 166 | ass | /* Verified, my ass... */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/mm/srmmu.c | 1136 | crap | /* Clear any crap from the cache or else... */ |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/mm/hypersparc.S | 166 | ass | /* Verified, my ass... */ |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/mm/ultra.S | 25 | shit | * in Microelectronics who refused to fix this shit. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/mm/srmmu.c | 1149 | shit | * this shit off... nice job Fujitsu. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/mm/srmmu.c | 1317 | crap | /* Clear any crap from the cache or else... */ |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/mm/ultra.S | 25 | shit | * in Microelectronics who refused to fix this shit. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/lib/checksum_32.S | 306 | shit | * give up.  I'm serious, I am going to kick the living shit |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/lib/checksum_32.S | 322 | ass | be	ccdbl + 4		! 8 byte aligned, kick ass |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/sparc/include/asm/floppy_32.h | 21 | crap | /* We don't need no stinkin' I/O port allocation crap. */ |
@@ -190,12 +190,12 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/rds/ib_cm.c | 730 | crap | /* Even if len is crap *now* I still want to check it. -ASG */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/rxrpc/rtt.c | 120 | shit | *    all the algo is pure shit and should be replaced |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/unix/garbage.c | 58 | damn | *		Damn. Added missing check for ->dead in listen queues scanning. |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/ah4.c | 97 | crap | case 0x85:	/* Some "Extended Security" crap. */ |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/ip_input.c | 28 | crap | *					new frame it queues. Still crap because |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/ip_gre.c | 136 | hell | what the hell these idiots break standards established |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/ip_input.c | 460 | crap | /* When the interface is in promisc. mode, drop all the crap |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/route.c | 3757 | damn | * We really need to sanitize the damn ipv4 init order, then all |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/ip_input.c | 28 | crap | *					new frame it queues. Still crap because |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/ah4.c | 97 | crap | case 0x85:	/* Some "Extended Security" crap. */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/ip_gre.c | 227 | hell | * what the hell these idiots break standards established |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/route.c | 3756 | damn | * We really need to sanitize the damn ipv4 init order, then all |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/ip_input.c | 460 | crap | /* When the interface is in promisc. mode, drop all the crap |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/tcp_input.c | 977 | crap | /* Old crap is replaced with new one. 8) |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/tcp_input.c | 991 | shit | *    all the algo is pure shit and should be replaced |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/netfilter/xt_hashlimit.c | 71 | crap | /* hash table crap */ |
@@ -224,24 +224,24 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/perf/trace/beauty/include/uapi/sound/asound.h | 63 | shit | unsigned char db5_dminh_lsv; /* downmix inhibit & level-shit values */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/perf/bench/futex-hash.c | 5 | hell | * futex-hash: Stress the hell out of the Linux kernel futex uaddr hashing. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/coding-style.rst | 862 | hell | might look like a good thing, but it's confusing as hell when one reads the |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/handling-regressions.rst | 672 | dammit | And dammit, we upgrade the kernel ALL THE TIME without upgrading any |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/management-style.rst | 67 | bullshit | And people will even see that as true leadership (*cough* bullshit |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/handling-regressions.rst | 672 | dammit | And dammit, we upgrade the kernel ALL THE TIME without upgrading any |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/submitting-patches.rst | 862 | piss | Greg Kroah-Hartman, "How to piss off a kernel subsystem maintainer". |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/management-style.rst | 114 | hell | sure as hell shouldn't encourage them by promising them that what they |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/management-style.rst | 272 | crap | a while, and you'll feel cleansed. Just don't crap too close to home. |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/submitting-patches.rst | 862 | piss | Greg Kroah-Hartman, "How to piss off a kernel subsystem maintainer". |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/arch/x86/i386/IO-APIC.rst | 26 | hell | hell:~> cat /proc/interrupts |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/arch/x86/i386/IO-APIC.rst | 37 | hell | hell:~> |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/kernel-hacking/hacking.rst | 797 | damn | * Sun people can't spell worth damn. "compatability" indeed. |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/kernel-hacking/hacking.rst | 816 | shit | * give up.  I'm serious, I am going to kick the living shit |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/RCU/RTFP.txt | 1740 | ass | \url{https://lore.kernel.org/r/20070128120509.719287000@programming.kicks-ass.net} |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/kernel-hacking/hacking.rst | 816 | shit | * give up.  I'm serious, I am going to kick the living shit |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/filesystems/ramfs-rootfs-initramfs.rst | 331 | hell | 5) Al Viro made the decision (quote: "tar is ugly as hell and not going to be |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/trace/postprocess/trace-pagealloc-postprocess.pl | 2 | crap | # This is a POC (proof of concept or piece of crap, take your pick) for reading the |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/core-api/irq/irq-affinity.rst | 32 | hell | PING hell (195.4.7.3): 56 data bytes |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/core-api/irq/irq-affinity.rst | 34 | hell | --- hell ping statistics --- |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/core-api/irq/irq-affinity.rst | 51 | hell | PING hell (195.4.7.3): 56 data bytes |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/core-api/irq/irq-affinity.rst | 53 | hell | --- hell ping statistics --- |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/translations/sp_SP/process/submitting-patches.rst | 897 | piss | "How to piss off a kernel subsystem maintainer" por Greg Kroah-Hartman. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/translations/ja_JP/SubmittingPatches | 699 | piss | Greg Kroah-Hartman, "How to piss off a kernel subsystem maintainer". |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/translations/sp_SP/process/submitting-patches.rst | 897 | piss | "How to piss off a kernel subsystem maintainer" por Greg Kroah-Hartman. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/translations/zh_CN/kernel-hacking/hacking.rst | 675 | damn | * Sun people can't spell worth damn. "compatibility" indeed. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/translations/zh_CN/kernel-hacking/hacking.rst | 694 | shit | * give up.  I'm serious, I am going to kick the living shit |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/translations/zh_CN/core-api/irq/irq-affinity.rst | 40 | hell | PING hell (195.4.7.3): 56 data bytes |
@@ -262,16 +262,17 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/include/linux/mtd/flashchip.h | 64 | damn | it'll make it a damn sight harder to find which chip we want from |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/usb/mixer.c | 1319 | crap | /* totally crap, return an error */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ad1889.c | 787 | dammit | ad1889_readl(chip, AD_DMA_DISR);	/* flush, dammit! */ |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/azt3328.c | 185 | crap | * Config switch, to use ALSA's AC97 layer instead of old custom mixer crap. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/es1968.c | 1145 | crap | /* parallel in crap, see maestro reg 0xC [8-11] */ |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/azt3328.c | 616 | damn | (13), make damn sure |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ens1370.c | 614 | dammit | /* wait for a SAFE time to write addr/data and then do it, dammit */ |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ens1370.c | 657 | dammit | /* wait for a SAFE time to write addr/data and then do it, dammit */ |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/azt3328.c | 185 | crap | * Config switch, to use ALSA's AC97 layer instead of old custom mixer crap. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ac97/ac97_patch.c | 1311 | bloody | WHY CAN'T ANYONE FOLLOW THE BLOODY SPEC?  *sigh* |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ac97/ac97_patch.c | 3642 | hell | * I have no idea what the hell Reserved does, but on an MSI |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ac97/ac97_patch.c | 3644 | shit | * shit may happen. |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ens1370.c | 657 | dammit | /* wait for a SAFE time to write addr/data and then do it, dammit */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 690 | ass | unsigned int ass, tmp, i; |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/azt3328.c | 616 | damn | (13), make damn sure |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ac97/ac97_patch.c | 3642 | hell | * I have no idea what the hell Reserved does, but on an MSI |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 697 | ass | ass = spec->cdefine.sku_cfg; |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/cs46xx/dsp_spos_scb_lib.c | 206 | shit | /* !!!! THIS IS A PIECE OF SHIT MADE BY ME !!! */ |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/ac97/ac97_patch.c | 3644 | shit | * shit may happen. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 698 | ass | if (ass == ALC_FIXUP_SKU_IGNORE) |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 705 | ass | ass = codec->core.subsystem_id & 0xffff; |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 706 | ass | if (ass != codec->bus->pci->subsystem_device && (ass & 1)) |
@@ -285,6 +286,7 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 731 | ass | spec->cdefine.check_sum = (ass >> 16) & 0xf; |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 732 | ass | spec->cdefine.customization = ass >> 8; |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 734 | ass | spec->cdefine.sku_cfg = ass; |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/au88x0/au88x0_core.c | 370 | crap | // FIXME: get rid of this crap. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 735 | ass | spec->cdefine.external_amp = (ass & 0x38) >> 3; |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 736 | ass | spec->cdefine.platform_type = (ass & 0x4) >> 2; |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 737 | ass | spec->cdefine.swap = (ass & 0x2) >> 1; |
@@ -304,34 +306,32 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 836 | ass | tmp = (ass & 0x38) >> 3;	/* external Amp control */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 858 | ass | if (!(ass & 0x8000)) |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/hda/patch_realtek.c | 869 | ass | tmp = (ass >> 11) & 0x3;	/* HP to chassis */ |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/cs46xx/dsp_spos_scb_lib.c | 206 | shit | /* !!!! THIS IS A PIECE OF SHIT MADE BY ME !!! */ |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/pci/au88x0/au88x0_core.c | 370 | crap | // FIXME: get rid of this crap. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/soc/codecs/wm8994.c | 346 | hell | /* Icky as hell but saves code duplication */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/soc/codecs/wm8994.c | 453 | hell | /* Icky as hell but saves code duplication */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/soc/codecs/wm8996.c | 399 | hell | /* Icky as hell but saves code duplication */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/isa/wavefront/wavefront_synth.c | 2118 | sucker | /* reset that sucker so that it doesn't bother us. */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/sound/aoa/soundbus/i2sbus/core.c | 250 | crap | * useless crap (ugh ugh ugh). We work around that here by calling |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c | 740 | bastard | int __legitimize_mnt(struct vfsmount *bastard, unsigned seq) |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/super.c | 1747 | bollocks | * then a chunk of this can be removed.  [Bollocks -- AV] |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c | 745 | bastard | if (bastard == NULL) |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c | 747 | bastard | mnt = real_mount(bastard); |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c | 752 | bastard | if (bastard->mnt_flags & MNT_SYNC_UMOUNT) { |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c | 757 | bastard | if (unlikely(bastard->mnt_flags & MNT_DOOMED)) { |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c | 768 | bastard | static bool legitimize_mnt(struct vfsmount *bastard, unsigned seq) |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/super.c | 1747 | bollocks | * then a chunk of this can be removed.  [Bollocks -- AV] |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c | 770 | bastard | int res = __legitimize_mnt(bastard, seq); |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c | 775 | bastard | mntput(bastard); |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/namespace.c | 4027 | sucker | /* lock the sucker */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/bcachefs/btree_gc.c | 1100 | crap | *    various other crap: everything needs to agree on the ordering |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/bcachefs/btree_gc.h | 30 | crap | * position inside its cmpxchg loop, so crap magically works). |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/jffs2/gc.c | 424 | crap | all the iget() crap anyway */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/jffs2/background.c | 110 | hell | * This forces the GCD to slow the hell down.   Pulling an |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/jffs2/gc.c | 424 | crap | all the iget() crap anyway */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/jffs2/dir.c | 856 | shit | /* Oh shit. We really ought to make a single node which can do both atomically */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/jffs2/dir.c | 870 | sucker | * for that sucker and we have to trigger mount eviction - the |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/configfs/symlink.c | 188 | bastard | *  AV, a thoroughly annoyed bastard. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/notify/fsnotify.c | 129 | damn | * directory, there damn well better only be one item on this list */ |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/btrfs/file.c | 2975 | crap | /* Make sure we aren't being give some crap mode */ |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/btrfs/file.c | 2976 | crap | /* Make sure we aren't being give some crap mode */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/adfs/dir_f.c | 66 | bitch | * assembler, but a bitch in C...  This is one |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/smb/client/inode.c | 1985 | sucker | * sucker and replace it with non-directory.  Return success, |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/smb/client/inode.c | 2062 | sucker | * sucker and replace it with non-directory.  Return success, |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/smb/client/dir.c | 880 | ass | * Here, we again ass|u|me that upper/lowercase versions of |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/affs/Changes | 243 | damn | 30 characters. (Damn it! This kind of bug |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/fs/ocfs2/xattr.c | 2242 | sucker | * sane state.  Thus, even with errors we dirty the sucker. |
@@ -342,7 +342,7 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/fork.c | 12 | bitch | * management can be a bitch. See 'mm/memory.c': 'copy_page_range()' |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/module/main.c | 766 | damn | /* FIXME: if (force), slam module count damn the torpedoes */ |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/irq/irqdomain.c | 932 | hell | * don't do it again, or hell will break loose. |
-| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/sched/fair.c | 4757 | hell | * Hell(o) Nasty stuff.. we need to recompute _sum based on the new |
+| https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/sched/fair.c | 4766 | hell | * Hell(o) Nasty stuff.. we need to recompute _sum based on the new |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/sched/clock.c | 439 | crap | * TSC to be unstable, any computation will be computing crap. |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/sched/core.c | 5439 | bollocks | * IO-wait accounting, and how it's mostly bollocks (on SMP). |
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/events/internal.h | 34 | crap | /* poll crap */ |
@@ -351,4 +351,4 @@
 | https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/time/posix-cpu-timers.c | 1198 | hell | * keep the callback static and to avoid header recursion hell. |
 
 
-Last updated: 2024-12-02 02:03:17
+Last updated: 2025-01-01 22:01:37

@@ -21,7 +21,7 @@ count_file = "count.csv"
 
 ignore_file = "ignore.txt"
 
-concurrent = 10                         #number of files to read at the same time. too many will error out.
+concurrent = 50                         #number of files to read at the same time. too many will error out.
 
 archive_dir="results/archive"
 
